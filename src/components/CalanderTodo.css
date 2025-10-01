@@ -3,3 +3,37 @@
   min-height: 320px;
   flex-shrink: 0;
 }
+.calendar-todo input {
+  margin-right: 8px;
+  padding: 4px 8px;
+  border: 1px solid #00ff00;
+  border-radius: 8px;
+  background: #222;
+  color: #fff;
+}
+.calendar-todo button {
+  background: #222;
+  border: 1px solid #00ff00;
+  color: #00ff00;
+  border-radius: 8px;
+  padding: 4px 10px;
+  cursor: pointer;
+}
+.calendar-todo button:hover {
+  background: #111;
+}
+.calendar-todo ul {
+  list-style: none;
+  padding-left: 0;
+  margin-top: 12px;
+}
+.calendar-todo li {
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.calendar-todo li span {
+  cursor: pointer;
+  flex: 1;
+}
