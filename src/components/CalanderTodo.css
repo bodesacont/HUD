@@ -1,0 +1,5 @@
+.calendar-todo {
+  min-width: 240px;
+  min-height: 320px;
+  flex-shrink: 0;
+}
