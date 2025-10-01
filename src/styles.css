@@ -1,0 +1,38 @@
+.hud-background {
+  background: #000;
+  min-height: 100vh;
+  color: #fff;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.hud-layout {
+  display: flex;
+  flex-direction: row;
+  margin-top: 120px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.hud-main-panels {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  margin-left: 40px;
+}
+
+.widget {
+  border: 2px solid #00ff00;
+  border-radius: 20px;
+  margin: 20px;
+  padding: 20px;
+  background: rgba(0,0,0,0.85);
+  box-shadow: 0 0 15px #00ff0088;
+}
+
+.widget-title {
+  font-size: 1.5em;
+  margin-bottom: 12px;
+  color: #00ff00;
+}
