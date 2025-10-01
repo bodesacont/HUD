@@ -1,0 +1,36 @@
+.app-nav {
+  position: absolute;
+  left: 50%;
+  top: 40px;
+  transform: translateX(-50%);
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  background: #444;
+  border: 2px solid #00ff00;
+  border-radius: 50%;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: -30px;
+  font-size: 1.2em;
+  box-shadow: 0 0 8px #00ff0088;
+}
+
+.app-circle.main {
+  background: #888;
+  z-index: 2;
+}
+
+.nav-arrow {
+  margin-left: 30px;
+  font-size: 2em;
+  color: #aaf;
+  user-select: none;
+}
